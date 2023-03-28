@@ -1,11 +1,94 @@
 ﻿title: Start
 ---
-Wow!
-My first ever Yarn script in Unity!
+<<declare $player_name = "Naruto" as String>>
+<<wait 0.5>>
+{$player_name}: Dear love... 
+{$player_name}: Thanks for the amazing present...
+{$player_name}: Nah i'm not sending her this trash.
+<<wait 0.5>>
+{$player_name}: Wait, how?
+{$player_name}: What? That must be a joke. Who would write something on a petal?
+......................
+{$player_name}: Well, it's not important.
+{$player_name}: I'll just throw it away.
+{$player_name}: What is this? What the hell is happening? 
+{$player_name}: It must be somebody's joke.
+{$player_name}: But it seems so strange...
 
--> Gosh!
--> Incredible!
--> I'm amazed!
+-> Tell mom
+    {$player_name}: Ok, i'm gonna tell mom about this. i'm sure she knows something.
+-> Don't tell mom
+    {$player_name}: Nah, i'm not gonna tell mom about this. I'll throw this away and forget about it.
 
-Anyway, time to get writing!
+{$player_name}: Was that....... an earthquake?
+......................
+
+That face, that horrid, suffocating face...
+I can't breathe, why can't i breathe?
+I feel like i'm gonna die.
+
+->Run to your mother
+    {$player_name}: .....................
+    Why can't i move?
+    {$player_name}: Please, help me... i nee... i need help.
+    .....................
+->Scream
+    {$player_name}: MOOOOOOM! HELP ME! 
+    {$player_name}: PLEASE HELP ME!
+    For some reason my voice is not coming out.
+    {$player_name}: Please, help me... i nee... i need help.
+    .....................
+    
+I slowly open my eyes and see a dim light.
+I quickly realize its coming from the window of my room. 
+......................
+The roses are still there, but the petals...
+They're gone.
+It was just a nightmare i guess...
+This will be another boring day at school.
+I should get ready.
+I wash my face, put on my clothes and go downstairs to eat breakfast.
+<wait 1>>
+I notice my mom preparing breakfast in a happy mood.
+Mom: Good morning honey, how was your sleep?
+
+->Fine
+    {$player_name}: I slept well ,thanks for asking mom.
+    Mom: You look tired are you sure?
+    {$player_name}: Yes, i'm fine.
+   
+->I had a nigthmare
+    I begin to tell her in a calm and nonchalant way.
+    {$player_name}: I had a nightmare.
+    {$player_name}: But i don't remember what it was about.
+    {$player_name}: I just remember that the roses were strange and that... i couldn't breathe.
+    Mom: Oh, i'm sorry honey.
+    {$player_name}: No, it's ok. I'm fine now.
+    
+{$player_name}: do you know where my backpack is?
+mom: yeah, yesterday i found it in the kitchen so i put it in the closet.
+mom: by the way, breakfast is ready.
+{$player_name}: yes, i'm coming.
+the breakfast is delicious as always.
+<<wait 2>>
+as i finish eating, i go to the closet to get my backpack.
+<<wait 1>> 
+{$player_name}: see you later mom!
+mom: bye honey.
+    
+    
+i'm at school, again...
+uff, i'll just need to wait until high noon and then i can go home and play some games.
+.....................
+school is boring as usual.
+
+Timballo: Hey {$player_name}, how are you?
+{$player_name}: I'm fine, a bit tired but fine.
+Timballo: Well, i'm VERY tired. 
+Timballo: I didn't sleep at all last night. I stayed up playing League of Thrones until 3 am.
+Timballo: I'm barely able to keep my eyes open.
+...............
+Timballo: I'm gonna go to the bathroom, i'll be right back.
+
+
 ===
