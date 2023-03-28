@@ -15,10 +15,10 @@
 {$player_name}: It must be somebody's joke.
 {$player_name}: But it seems so strange...
 
--> Tell mom
-    {$player_name}: Ok, i'm gonna tell mom about this. i'm sure she knows something.
--> Don't tell mom
-    {$player_name}: Nah, i'm not gonna tell mom about this. I'll throw this away and forget about it.
+-> Tell Mom
+    {$player_name}: Ok, i'm gonna tell Mom about this. i'm sure she knows something.
+-> Don't tell Mom
+    {$player_name}: Nah, i'm not gonna tell Mom about this. I'll throw this away and forget about it.
 
 {$player_name}: Was that....... an earthquake?
 ......................
@@ -49,11 +49,11 @@ This will be another boring day at school.
 I should get ready.
 I wash my face, put on my clothes and go downstairs to eat breakfast.
 <wait 1>>
-I notice my mom preparing breakfast in a happy mood.
+I notice my Mom preparing breakfast in a happy mood.
 Mom: Good morning honey, how was your sleep?
 
 ->Fine
-    {$player_name}: I slept well ,thanks for asking mom.
+    {$player_name}: I slept well ,thanks for asking Mom.
     Mom: You look tired are you sure?
     {$player_name}: Yes, i'm fine.
    
@@ -66,21 +66,21 @@ Mom: Good morning honey, how was your sleep?
     {$player_name}: No, it's ok. I'm fine now.
     
 {$player_name}: do you know where my backpack is?
-mom: yeah, yesterday i found it in the kitchen so i put it in the closet.
-mom: by the way, breakfast is ready.
+Mom: yeah, yesterday i found it in the kitchen so i put it in the closet.
+Mom: by the way, breakfast is ready.
 {$player_name}: yes, i'm coming.
 the breakfast is delicious as always.
 <<wait 2>>
 as i finish eating, i go to the closet to get my backpack.
 <<wait 1>> 
-{$player_name}: see you later mom!
-mom: bye honey.
+{$player_name}: see you later Mom!
+Mom: bye honey.
     
     
-i'm at school, again...
-uff, i'll just need to wait until high noon and then i can go home and play some games.
+I'm at school, again...
+Uff, i'll just need to wait until high noon and then i can go home and play some games.
 .....................
-school is boring as usual.
+School is boring as usual.
 
 Timballo: Hey {$player_name}, how are you?
 {$player_name}: I'm fine, a bit tired but fine.
@@ -89,6 +89,33 @@ Timballo: I didn't sleep at all last night. I stayed up playing League of Throne
 Timballo: I'm barely able to keep my eyes open.
 ...............
 Timballo: I'm gonna go to the bathroom, i'll be right back.
+I guess that marks the start of the boredom.
+Uff, guess i'll just wait until high noon and then i can go home and play some games.
+Geez, school is boring as usual.
+<<wait 1>>
+I'm trying to stay focused on the blackboard, but the lesson is so boring...
+I wonder if taking some notes would help.
+<<wait 1>>
+That's my favourite sound! 
+Can't wait to go home, eat and play some games.
+<<wait 1>>
+You arrived home, you smell the amazing scent of grilled wurst.
+Soon your gonna fill your stomach with that delicious food.
+I notice that my Mom has a sad look on her face.
+{$player_name}: Hey Mom i'm home!
+{$player_name}: Is everything ok?
+Mom: Yeah, i'm just a little tired because of work.
+Mom: I'm gonna take a nap.
+{$player_name}: Ok... It looks delicious by the way.
+Mom: Good, now start to eat or it will get cold.
+{$player_name}: Ok, i'm coming.
+It is soo tasty. Lets see what's on TV.
+They are showing the auction of a rare painting.
+I guess i'll watch this until i finish eating.
+
+I climb the stairs to my room.
+I see the roses on the table and remember the nightmare.
 
 
+    
 ===
