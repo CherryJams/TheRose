@@ -48,33 +48,33 @@ It was just a nightmare i guess...
 This will be another boring day at school.
 I should get ready.
 I wash my face, put on my clothes and go downstairs to eat breakfast.
-<wait 1>>
+<<wait 1>>
 I notice my Mom preparing breakfast in a happy mood.
 Mom: Good morning honey, how was your sleep?
 
 ->Fine
-    {$player_name}: I slept well ,thanks for asking Mom.
+    {$player_name}: I slept well, thanks for asking Mom.
     Mom: You look tired are you sure?
     {$player_name}: Yes, i'm fine.
    
 ->I had a nigthmare
-    I begin to tell her in a calm and nonchalant way.
+    I begin to tell her about last night in a calm and nonchalant way.
     {$player_name}: I had a nightmare.
     {$player_name}: But i don't remember what it was about.
     {$player_name}: I just remember that the roses were strange and that... i couldn't breathe.
     Mom: Oh, i'm sorry honey.
     {$player_name}: No, it's ok. I'm fine now.
     
-{$player_name}: do you know where my backpack is?
-Mom: yeah, yesterday i found it in the kitchen so i put it in the closet.
-Mom: by the way, breakfast is ready.
-{$player_name}: yes, i'm coming.
-the breakfast is delicious as always.
+{$player_name}: Do you know where my backpack is?
+Mom: Yeah, yesterday i found it in the kitchen so i put it in the closet.
+Mom: By the way, breakfast is ready.
+{$player_name}: Yes, i'm coming.
+The breakfast is delicious as always.
 <<wait 2>>
-as i finish eating, i go to the closet to get my backpack.
+As i finish eating, i go to the closet to get my backpack.
 <<wait 1>> 
-{$player_name}: see you later Mom!
-Mom: bye honey.
+{$player_name}: See you later Mom!
+Mom: Bye honey.
     
     
 I'm at school, again...
@@ -90,7 +90,7 @@ Timballo: I'm barely able to keep my eyes open.
 ...............
 Timballo: I'm gonna go to the bathroom, i'll be right back.
 I guess that marks the start of the boredom.
-Uff, guess i'll just wait until high noon and then i can go home and play some games.
+I'll just wait until high noon and then i can go home and play some games.
 Geez, school is boring as usual.
 <<wait 1>>
 I'm trying to stay focused on the blackboard, but the lesson is so boring...
@@ -115,7 +115,35 @@ I guess i'll watch this until i finish eating.
 
 I climb the stairs to my room.
 I see the roses on the table and remember the nightmare.
+What to you want to do with them?
+->Move them away from your room
+    {$player_name}: I'm gonna put the vase in the kitchen.
+    {$player_name}: I'm not so comfortable with that here.
+->Leave them there
+    {$player_name}: I'm gonna leave them here.
+    {$player_name}: I'm not that superstitious.
+    
+I sit in front of the pc and run the game i started a week ago.
+Just being in the main menu gives me a heavenly feeling of relief and glory.
+I'll pass the next few hours playing this masterpiece.
 
+What was that sound?
+Maybe it's better to check what's going on.
 
+Where are the roses?
+Did mom take them and i didn't notice? 
+
+Why are there so many petals on the floor?
+
+->Pick up a petal
+    {$player_name}: I'm gonna pick up a petal.
+    
+->Hurry to the kitchen
+    {$player_name}: I better hurry to check what's going on.
+???:Honey is that you?
+{$player_name}: Mom? 
+???: You will soon reach me in the garden.
+???: I'm waiting for you.
+???: Hail the roses.
     
 ===
