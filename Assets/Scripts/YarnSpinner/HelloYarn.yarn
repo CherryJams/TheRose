@@ -2,25 +2,27 @@
 ---
 <<declare $player_name = "Naruto" as String>>
 <<wait 0.5>>
+<<fade FadeImage false 1>> 
 <<setAlpha LocationImage 255>> 
 <<setSprite LocationImage rosesOnTable>>
 {$player_name}: Dear love... 
 {$player_name}: Thanks for the amazing present...
 {$player_name}: Nah i'm not sending her this trash.
 <<wait 0.5>>
+You notice that a petal has fallen from the roses.
 <<setSprite LocationImage petalOnTable>>
-{$player_name}: Wait...
 {$player_name}: It seems that something is written on the petal.
 <<setSprite LocationImage rosesOnTable>>
-Hail the roses, praise the roses, look at the roses. 
-{$player_name}: What? That must be a joke. Who would write something on a petal?
+It says "Hail the roses, praise the roses, look at the roses."
+{$player_name}: What? That must be a joke. Who would write something like that on a petal?
 ......................
 {$player_name}: Well, it's not important.
 {$player_name}: I'll just throw it away.
+Another petal falls from the roses.
 <<setSprite LocationImage petalOnTable>>
 {$player_name}: Again?
+It says "Shall we begin?"
 <<setSprite LocationImage rosesOnTable>>
-Shall we begin?
 {$player_name}: What is this? What the hell is happening? 
 {$player_name}: It must be somebody's joke.
 {$player_name}: But it seems so strange...
@@ -32,11 +34,13 @@ Shall we begin?
 
 {$player_name}: Was that....... an earthquake?
 ......................
+The shake was so strong that it made another petal fall from the roses.
 <<setSprite LocationImage petalOnTable>>
+Something strange is on the petal.
 <<wait 1>>
-->Pick it up
-......................
+->Pick it up and look at it.
 <<setSprite LocationImage scaryFace>>
+......................
 That face, that horrid, suffocating face...
 I can't breathe, why can't i breathe?
 I feel like i'm gonna die.
@@ -52,23 +56,26 @@ I feel like i'm gonna die.
     For some reason my voice is not coming out.
     {$player_name}: Please, help me... i nee... i need help.
     .....................
-<<setAlpha LocationImage 0>>    
+<<fade FadeImage true 1>>
+<<wait 2>>
 I slowly open my eyes and see a dim light.
 I quickly realize its coming from the window of my room. 
 ......................
-<<setAlpha LocationImage 255>>
 <<setSprite LocationImage rosesOnTable>>
+<<fade FadeImage false 1>>
 The roses are still there, but the petals...
 They're gone.
 It was just a nightmare i guess...
 This will be another boring day at school.
 I should get ready.
 I wash my face, put on my clothes and go downstairs to eat breakfast.
+<<fade FadeImage true 1>>
 <<wait 1>>
 <<setSprite LocationImage kitchen>>
+<<fade FadeImage false 1>>
 I notice my Mom preparing breakfast in a happy mood.
-<<setAlpha CharacterImage 255>>
 <<setSprite CharacterImage momSmileTransparent>>
+<<setAlpha CharacterImage 255>>
 Mom: Good morning honey, how was your sleep?
 
 ->Fine
@@ -81,36 +88,41 @@ Mom: Good morning honey, how was your sleep?
     {$player_name}: I had a nightmare.
     {$player_name}: But i don't remember what it was about.
     {$player_name}: I just remember that the roses were strange and that... i couldn't breathe.
+    <<setSprite CharacterImage momSadTransparent>>
     Mom: Oh, i'm sorry honey.
     {$player_name}: No, it's ok. I'm fine now.
+    <<setSprite CharacterImage momSmileTransparent>> 
     
 {$player_name}: Do you know where my backpack is?
 Mom: Yeah, yesterday i found it in the kitchen so i put it in the closet.
 Mom: By the way, breakfast is ready.
 {$player_name}: Yes, i'm coming.
-<<setAlpha CharacterImage 0>>
+<<fade CharacterImage false 1>>
 The breakfast is delicious as always.
 <<wait 2>>
-<<setAlpha LocationImage 0>>
+<<fade FadeImage true 1>>
 As i finish eating, i go to the closet to get my backpack.
 <<wait 1>> 
 {$player_name}: See you later Mom!
 Mom: Bye honey.
     
-<<setAlpha LocationImage 255>>
 <<setSprite LocationImage classroomWithBlackboard>>
+<<fade FadeImage false 1>>
 
 I'm at school, again...
 Uff, i'll just need to wait until high noon and then i can go home and play some games.
 .....................
 School is boring as usual.
 
+<<setSprite CharacterImage fatGuySadTransparent>>    
 <<setAlpha CharacterImage 255>>
-<<setCharacterImage fatGuySmileTransparent>>    
-
+<<wait 1>>
+<<setSprite CharacterImage fatGuySmileTransparent>>
 Timballo: Hey {$player_name}, how are you?
 {$player_name}: I'm fine, a bit tired but fine.
+<<setSprite CharacterImage fatGuySadTransparent>>
 Timballo: Well, i'm VERY tired. 
+<<setSprite CharacterImage fatGuySmileTransparent>>
 Timballo: I didn't sleep at all last night. I stayed up playing League of Thrones until 3 am.
 Timballo: I'm barely able to keep my eyes open.
 ...............
@@ -120,28 +132,28 @@ I guess that marks the start of the boredom.
 I'll just wait until high noon and then i can go home and play some games.
 Geez, school is boring as usual.
 <<wait 1>>
-<<setAlpha LocationImage 0>>
-I'm trying to stay focused on the blackboard, but the lesson is so boring...
+<<fade FadeImage true 1>>
+I'm trying to stay focused on the blackboard, but the lecture is so boring...
 I wonder if taking some notes would help.
 <<wait 1>>
-<<setAlpha LocationImage 255>>
+<<fade FadeImage false 1>>
 That's my favourite sound! 
 Can't wait to go home, eat and play some games.
-<<setAlpha LocationImage 0>>
+<<fade FadeImage true 1>>
 <<wait 1>>
 You arrived home, you smell the amazing scent of grilled wurst.
 Soon your gonna fill your stomach with that delicious food.
-<<setAlpha LocationImage 255>>
-<<setLocationImage kitchen>>
+<<setSprite LocationImage kitchen>>
+<<fade FadeImage false 1>>
 I notice that my Mom has a sad look on her face.
 {$player_name}: Hey Mom i'm home!
+<<setSprite CharacterImage momSadTransparent>>
 <<setAlpha CharacterImage 255>>
-<<setCharacterImage momSadTransparent>>
 {$player_name}: Is everything ok?
 Mom: Yeah, i'm just a little tired because of work.
 Mom: I'm gonna take a nap.
 {$player_name}: Ok... It looks delicious by the way.
-<<setCharacterImage momSmileTransparent>>
+<<setSprite CharacterImage momSmileTransparent>>
 Mom: Good, now start to eat or it will get cold.
 {$player_name}: Ok, i'm coming.
 <<setAlpha CharacterImage 0>>
@@ -149,44 +161,56 @@ Mom: Good, now start to eat or it will get cold.
 It is soo tasty. Lets see what's on TV.
 They are showing the auction of a rare painting.
 I guess i'll watch this until i finish eating.
-<<setAlpha LocationImage 0>>
-
-I climb the stairs to my room.
-<<setAlpha LocationImage 255>>
-<<setLocationImage rosesOnTable>>
+<<fade FadeImage true 1>>
+<<wait 2>>
+I climb the stairs and arrive in my room.
+<<setSprite LocationImage rosesOnTable>>
+<<fade FadeImage false 1>>
 I see the roses on the table and remember the nightmare.
+<<set $beenMoved to false>>
 What to you want to do with them?
 ->Move them away from your room
     {$player_name}: I'm gonna put the vase in the kitchen.
     {$player_name}: I'm not so comfortable with that here.
+    <<set $beenMoved to true>>
 ->Leave them there
     {$player_name}: I'm gonna leave them here.
     {$player_name}: I'm not that superstitious.
-<<setAlpha LocationImage 0>> 
+<<fade FadeImage true 1>>
 I sit in front of the pc and run the game i started a week ago.
 Just being in the main menu gives me a heavenly feeling of relief and glory.
 I'll pass the next few hours playing this masterpiece.
 
 What was that sound?
-<<setAlpha LocationImage 255>>
 Maybe it's better to check what's going on.
 
+<<if $beenMoved == false>>
 Where are the roses?
 Did mom take them and i didn't notice? 
+<<endif>>
 
 Why are there so many petals in the room?
 
-<<setLocationImage rosesOnTable>>
+<<setSprite LocationImage petalOnTable>>
+<<fade FadeImage false 1>>
 ->Pick up a petal
-    {$player_name}: I'm gonna pick up a petal.
+    Something is written on it.
     <<wait 1>>
-    A sad soul, a vulnerable soul, a soul that needs help. 
+    "A sad soul, a vulnerable soul, a soul that needs help."
 ->Hurry to the kitchen
     {$player_name}: I better hurry to check what's going on.
+You have a bad feeling. You quickly move to the kitchen.
+<<fade FadeImage true 1>>
+<<setSprite LocationImage kitchen>>
+<<fade FadeImage false 1>>
 ???:Honey is that you?
 {$player_name}: Mom? 
+<<setSprite CharacterImage psychoMomTransparent>>
+<<setAlpha CharacterImage 255>>
 ???: You will soon reach me in the garden.
+<<setAlpha CharacterImage 0>>
+<<setSprite LocationImage psychoMomInKitchenZoom>>
 ???: I'm waiting for you.
 ???: Hail the roses.
-    
+<<fade FadeImage true 1>>    
 ===
