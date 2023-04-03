@@ -40,6 +40,7 @@ Something strange is on the petal.
 <<wait 1>>
 ->Pick it up and look at it.
 <<setSprite LocationImage scaryFace>>
+<<play scary>>
 ......................
 That face, that horrid, suffocating face...
 I can't breathe, why can't i breathe?
@@ -57,6 +58,7 @@ I feel like i'm gonna die.
     {$player_name}: Please, help me... i nee... i need help.
     .....................
 <<fade FadeImage true 1>>
+<<fadeAudio scary 1 0>> 
 <<wait 2>>
 I slowly open my eyes and see a dim light.
 I quickly realize its coming from the window of my room. 
@@ -68,7 +70,7 @@ They're gone.
 It was just a nightmare i guess...
 This will be another boring day at school.
 I should get ready.
-I wash my face, put on my clothes and go downstairs to eat breakfast.
+As soon as i finish preparing i go downstairs to eat breakfast.
 <<fade FadeImage true 1>>
 <<wait 1>>
 <<setSprite LocationImage kitchen>>
@@ -76,6 +78,7 @@ I wash my face, put on my clothes and go downstairs to eat breakfast.
 I notice my Mom preparing breakfast in a happy mood.
 <<setSprite CharacterImage momSmileTransparent>>
 <<setAlpha CharacterImage 255>>
+<<play house>>
 Mom: Good morning honey, how was your sleep?
 
 ->Fine
@@ -105,9 +108,10 @@ As i finish eating, i go to the closet to get my backpack.
 <<wait 1>> 
 {$player_name}: See you later Mom!
 Mom: Bye honey.
-    
+<<setAlpha CharacterImage 0>> 
 <<setSprite LocationImage classroomWithBlackboard>>
 <<fade FadeImage false 1>>
+<<fadeAudio house 1 0>>
 
 I'm at school, again...
 Uff, i'll just need to wait until high noon and then i can go home and play some games.
@@ -117,6 +121,7 @@ School is boring as usual.
 <<setSprite CharacterImage fatGuySadTransparent>>    
 <<setAlpha CharacterImage 255>>
 <<wait 1>>
+<<play school>>
 <<setSprite CharacterImage fatGuySmileTransparent>>
 Timballo: Hey {$player_name}, how are you?
 {$player_name}: I'm fine, a bit tired but fine.
@@ -137,14 +142,16 @@ I'm trying to stay focused on the blackboard, but the lecture is so boring...
 I wonder if taking some notes would help.
 <<wait 1>>
 <<fade FadeImage false 1>>
-That's my favourite sound! 
-Can't wait to go home, eat and play some games.
+{$player_name}: Finally, high noon!
+{$player_name}: Can't wait to go home, eat and play some games.
 <<fade FadeImage true 1>>
-<<wait 1>>
+<<fadeAudio school 1 0>>
+<<wait 2>>
 You arrived home, you smell the amazing scent of grilled wurst.
 Soon your gonna fill your stomach with that delicious food.
 <<setSprite LocationImage kitchen>>
 <<fade FadeImage false 1>>
+<<fadeAudio house 1 1>>
 I notice that my Mom has a sad look on her face.
 {$player_name}: Hey Mom i'm home!
 <<setSprite CharacterImage momSadTransparent>>
@@ -162,6 +169,7 @@ It is soo tasty. Lets see what's on TV.
 They are showing the auction of a rare painting.
 I guess i'll watch this until i finish eating.
 <<fade FadeImage true 1>>
+<<fadeAudio house 1 0>>
 <<wait 2>>
 I climb the stairs and arrive in my room.
 <<setSprite LocationImage rosesOnTable>>
@@ -207,10 +215,12 @@ You have a bad feeling. You quickly move to the kitchen.
 {$player_name}: Mom? 
 <<setSprite CharacterImage psychoMomTransparent>>
 <<setAlpha CharacterImage 255>>
+<<fadeAudio scary 1 1>>
 ???: You will soon reach me in the garden.
 <<setAlpha CharacterImage 0>>
 <<setSprite LocationImage psychoMomInKitchenZoom>>
 ???: I'm waiting for you.
 ???: Hail the roses.
 <<fade FadeImage true 1>>    
+<<fadeAudio scary 1 0>>
 ===
