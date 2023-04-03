@@ -223,4 +223,6 @@ You have a bad feeling. You quickly move to the kitchen.
 ???: Hail the roses.
 <<fade FadeImage true 1>>    
 <<fadeAudio scary 1 0>>
+<<wait 3>>
+Thanks for playing!
 ===
